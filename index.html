@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+</head>
+<body>
+    <main>
+        <h1>Budget Calculator</h1>
+        <table class="incomeInput">
+            <tr>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Amount ($)</th>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td class="moneyInput"><input type="number" id="input1"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td class="moneyInput" ><input type="number" id="input2"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td class="moneyInput"><input type="number" id="input3"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td class="moneyInput"><input type="number" id="input4"></td>
+            </tr>
+        </table>
+        <div class="moneyTotal">
+            <button class="addInput" onclick="addInputs()">Press</button>
+            <p id="totalInput">Gross Income: </p>
+        </div>
+    </main>
+</body>
+</html>
