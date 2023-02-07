@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #f7f7f7;
+    background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
+    height: 100%;
+    padding: 5% 25% 0% 25%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.incomeInput {
+    margin-top: 10%;
+    width: 100%;
+}
+
+.incomeInput th {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.incomeInput td {
+    height: 50px;
+    width: 40%;
+}
+
+.incomeInput td:first-of-type {
+    width: 20%;
+}
+
+.incomeInput input{
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgb(147, 147, 147);
+}
+
+.moneyInput input::-webkit-outer-spin-button, .moneyInput input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.addInput {
+   width: 20%; 
+   height: 75px;
+}
+
+.moneyTotal {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 60%;
+    height: 75px;
+    background-color: rgb(147, 147, 147);
+    margin-left: 40%;
+    margin-top: 3%;
+}
+
+.moneyTotal p {
+    margin-left: 10%;
+}
