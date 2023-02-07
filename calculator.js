@@ -1,6 +1,6 @@
 function addInputs() {
-    var inputOne = document.getElementById('input1');
-    alert(inputOne.value);  
-}
+    var inputTotal = +document.getElementById('input1').value + +document.getElementById('input2').value + +document.getElementById('input3').value + +document.getElementById('input4').value;
+    var grossIncome = document.getElementById("totalInput");
+    grossIncome.textContent += inputTotal;
+}   
 
-addInputs ();
