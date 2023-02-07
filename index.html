@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="calculator.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png">
     <title>calculator</title>
 </head>
 <body>
@@ -39,9 +40,43 @@
             </tr>
         </table>
         <div class="moneyTotal">
-            <input type="button" value="Press" id="submitInput" onclick="addInputs ()">
-            <!-- <button class="addInput" onclick="addInputs()">Press</button> -->
             <p >Gross Income: <span id="totalInput"></span>$ </p>
+        </div>
+        <h1>Pay Period Reduction Calculator</h1>
+        <div class="incomePay">
+            <p>Gross annual income:</p>
+            <input type="number" id="annualInput">
+            <p>Gross monthly income:</p>
+            <p class="fix" id="monthlyOutput"></p>
+        </div>
+        <input type="button" class="calculateBtn" id="calculateTax" value="Calculate">
+        <div class="row">
+            <p>Federal Taxes (12%)</p>
+            <p id="federalTax"></p>
+        </div>
+        <div class="row">
+            <p>State Taxes (7%)</p>
+            <p id="stateTax"></p>
+        </div>
+        <div class="row">
+            <p>Social Security (6.2%)</p>
+            <p id="Securitytax"></p>
+        </div>
+        <div class="row">
+            <p>Medicare (1.45%)</p>
+            <p id="medicareTax"></p>
+        </div>
+        <div class="row">
+            <p>State Disability (1%)</p>
+            <p id="disabilityTax"></p>
+        </div>
+        <div class="row">
+            <p>Retirement Savings (5%)</p>
+            <p id="retirementTax"></p>
+        </div>
+        <div class="row">
+            <p>Medical Insurance (180$)</p>
+            <p id="medicalTax"></p>
         </div>
     </main>
 </body>
