@@ -28,6 +28,7 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: max(3vw, 24px) ;
     text-align: center;
+    color: white;
 }
 
 h1:first-of-type {
@@ -50,6 +51,7 @@ h1:nth-of-type(2) {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: max(1.5vw, 12px);
     margin-bottom: 20px;
+    color: white;
 }
 
 .incomeInput td {
@@ -68,7 +70,7 @@ h1:nth-of-type(2) {
     text-align: center;
     background-color: rgb(147, 147, 147, 0);
     border: 1px solid #797979;
-
+   
 }
 
 input:focus {
@@ -113,6 +115,7 @@ input[type=number] {
 
 .moneyTotal p {
     margin-left: 20%;
+    color: white;
 }
 
 .incomePay {
@@ -181,7 +184,7 @@ input[type=number] {
     font-size: 1.5rem;
     text-align: center;
     font-size: max(1.5vw, 12px);
-
+    color: white;
 }
 
 .row p:nth-of-type(2) {
@@ -208,11 +211,13 @@ input[type=number] {
 
 .reductions p {
     padding: 1%;
+    color: white;
 }
 
 #I-LOVE-MINUS-SIGN {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5rem;
+    color: white;
 }
 
 .finalResult {
@@ -226,4 +231,5 @@ input[type=number] {
 
 .finalResult p {
     padding: 1%;
+    color: white;
 }
