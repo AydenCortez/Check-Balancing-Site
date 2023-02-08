@@ -21,26 +21,26 @@
             <tr>
                 <td><input type="text" placeholder="MM/DD/YYYY"></td>
                 <td><input type="text" placeholder="Insert Text"></td>
-                <td class="moneyInput"><input type="number" id="input1"></td>
+                <td class="moneyInput"><input type="text" id="input1"></td>
             </tr>
             <tr>
                 <td><input type="text"></td>
                 <td><input type="text"></td>
-                <td class="moneyInput" ><input type="number" id="input2"></td>
+                <td class="moneyInput" ><input type="text" id="input2"></td>
             </tr>
             <tr>
                 <td><input type="text"></td>
                 <td><input type="text"></td>
-                <td class="moneyInput"><input type="number" id="input3"></td>
+                <td class="moneyInput"><input type="text" id="input3"></td>
             </tr>
             <tr>
                 <td><input type="text"></td>
                 <td><input type="text"></td>
-                <td class="moneyInput"><input type="number" id="input4"></td>
+                <td class="moneyInput"><input type="text" id="input4"></td>
             </tr>
         </table>
         <div class="moneyTotal">
-            <p >Gross Income: <span id="totalInput"></span>$ </p>
+            <p >Gross Income: <span id="totalInput"></span> </p>
         </div>
         <h1>Pay Period Reduction Calculator</h1>
         <div class="incomePay">
@@ -49,7 +49,7 @@
             <p>Gross monthly income:</p>
             <p class="fix" id="monthlyOutput"></p>
         </div>
-        <input type="button" class="calculateBtn" id="calculateTax" value="Calculate">
+        <input type="button" class="calculateBtn" id="calculateTax" value="Calculate" onclick="calculateReductions ()">
         <div class="row">
             <p>Federal Taxes (12%)</p>
             <p id="federalTax"></p>
@@ -60,7 +60,7 @@
         </div>
         <div class="row">
             <p>Social Security (6.2%)</p>
-            <p id="Securitytax"></p>
+            <p id="securityTax"></p>
         </div>
         <div class="row">
             <p>Medicare (1.45%)</p>
@@ -77,6 +77,21 @@
         <div class="row">
             <p>Medical Insurance (180$)</p>
             <p id="medicalTax"></p>
+        </div>
+        <div class="reductions">
+            <div class="monthlyResult">
+                <p>Gross Monthly Income</p>
+                <p id="grossResult"></p>
+            </div>
+            <p id="I-LOVE-MINUS-SIGN">-</p>
+            <div class="totalReductions">
+                <p>Total Reductions</p>
+                <p id="totalReductions"></p>
+            </div>
+        </div>
+        <div class="finalResult">
+            <p>Net Monthly Income</p>
+            <p id="netResult"></p>
         </div>
     </main>
 </body>
